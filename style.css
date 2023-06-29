@@ -1,0 +1,31 @@
+.button{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: all 0.3s ease-in;
+}
+
+.equal-button{
+    background-color: yellow;
+}
+
+.button:hover{
+    background-color: blueviolet;
+    color: white;
+    scale: 1.05;
+}
+
+#text{
+    width: 160px;
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    margin: 0;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
